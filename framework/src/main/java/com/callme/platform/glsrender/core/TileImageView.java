@@ -6,10 +6,9 @@ import android.graphics.Point;
 import android.graphics.Rect;
 import android.graphics.RectF;
 import android.os.Build;
+import android.support.annotation.RequiresApi;
 import android.util.Log;
 import android.util.LongSparseArray;
-
-import androidx.annotation.RequiresApi;
 
 import com.callme.platform.glsrender.gl11.GLCanvas;
 import com.callme.platform.glsrender.gl11.GLRoot;

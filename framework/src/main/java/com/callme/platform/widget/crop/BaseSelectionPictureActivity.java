@@ -13,9 +13,8 @@ import android.os.Build;
 import android.os.Environment;
 import android.provider.DocumentsContract;
 import android.provider.MediaStore;
-
-import androidx.core.content.FileProvider;
-import androidx.fragment.app.FragmentActivity;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.content.FileProvider;
 
 import com.callme.platform.R;
 import com.yanzhenjie.alertdialog.AlertDialog;

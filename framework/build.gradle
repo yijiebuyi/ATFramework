@@ -13,8 +13,11 @@ android {
         versionCode 1
         versionName "1.0"
 
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-
+        //testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_8
+            targetCompatibility JavaVersion.VERSION_1_8
+        }
     }
 
     buildTypes {
@@ -59,3 +62,5 @@ dependencies {
     api  'com.umeng.umsdk:common:1.5.4'
 
 }
+
+

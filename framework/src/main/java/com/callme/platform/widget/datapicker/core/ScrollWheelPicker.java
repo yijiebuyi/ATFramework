@@ -4,11 +4,10 @@ package com.callme.platform.widget.datapicker.core;
 import android.content.Context;
 import android.os.Build;
 import android.os.SystemClock;
+import android.support.v4.view.ViewCompat;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.animation.DecelerateInterpolator;
-
-import androidx.core.view.ViewCompat;
 
 import com.callme.platform.widget.datapicker.anim.Animation;
 

@@ -3,6 +3,7 @@ package com.callme.platform.widget;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.support.annotation.ColorRes;
 import android.view.Gravity;
 import android.view.View;
 import android.view.Window;
@@ -10,8 +11,6 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.TextView;
-
-import androidx.annotation.ColorRes;
 
 import com.callme.platform.R;
 

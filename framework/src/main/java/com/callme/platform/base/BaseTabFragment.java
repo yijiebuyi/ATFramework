@@ -1,5 +1,8 @@
 package com.callme.platform.base;
 
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentPagerAdapter;
 import android.util.DisplayMetrics;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
@@ -13,10 +16,6 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.LinearLayout.LayoutParams;
 import android.widget.TextView;
-
-import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentPagerAdapter;
 
 import com.callme.platform.R;
 import com.callme.platform.util.ResourcesUtil;
@@ -256,7 +255,6 @@ public abstract class BaseTabFragment extends BaseFragment {
      * @param tabTxt
      * @param list
      * @param argList Integer:需要设置参数的Fragment位置 Map<String, T> String 方法名 T 参数值
-     * @throws Exception
      */
     public <T> void addViews(String[] tabTxt,
                              List<Class<? extends Fragment>> list,
@@ -287,7 +285,6 @@ public abstract class BaseTabFragment extends BaseFragment {
      * @param tabTxt
      * @param list
      * @param isNest 如果嵌入在其他的fragment里面就要传true
-     * @throws Exception
      */
     public <T> void addViews(String[] tabTxt,
                              List<Class<? extends Fragment>> list,

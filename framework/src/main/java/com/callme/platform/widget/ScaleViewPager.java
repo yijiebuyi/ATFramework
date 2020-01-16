@@ -1,10 +1,9 @@
 package com.callme.platform.widget;
 
 import android.content.Context;
+import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
-
-import androidx.viewpager.widget.ViewPager;
 
 /*
  * Copyright (C) 2017 重庆呼我出行网络科技有限公司

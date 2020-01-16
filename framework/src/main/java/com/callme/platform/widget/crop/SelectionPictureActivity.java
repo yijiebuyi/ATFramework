@@ -9,12 +9,11 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.provider.MediaStore;
+import android.support.annotation.Keep;
+import android.support.annotation.Nullable;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
-
-import androidx.annotation.Keep;
-import androidx.annotation.Nullable;
 
 import com.callme.platform.R;
 import com.callme.platform.widget.BottomSheet;

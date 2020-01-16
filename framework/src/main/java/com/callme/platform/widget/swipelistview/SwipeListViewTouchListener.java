@@ -23,6 +23,7 @@ package com.callme.platform.widget.swipelistview;
 import android.graphics.Rect;
 import android.os.Build;
 import android.os.Handler;
+import android.support.v4.view.MotionEventCompat;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.VelocityTracker;
@@ -33,7 +34,6 @@ import android.widget.AbsListView;
 import android.widget.AbsListView.OnScrollListener;
 import android.widget.AdapterView;
 
-import androidx.core.view.MotionEventCompat;
 
 import com.callme.platform.R;
 import com.callme.platform.util.ResourcesUtil;

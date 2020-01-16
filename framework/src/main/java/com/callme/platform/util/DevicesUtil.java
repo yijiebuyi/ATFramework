@@ -14,11 +14,10 @@ import android.net.NetworkInfo;
 import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
 import android.os.Build;
+import android.support.v4.app.ActivityCompat;
 import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 import android.text.format.Formatter;
-
-import androidx.core.app.ActivityCompat;
 
 import java.io.File;
 import java.net.Inet4Address;

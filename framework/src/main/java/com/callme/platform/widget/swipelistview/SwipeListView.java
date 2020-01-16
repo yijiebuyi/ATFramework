@@ -21,6 +21,8 @@ package com.callme.platform.widget.swipelistview;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.database.DataSetObserver;
+import android.support.v4.view.MotionEventCompat;
+import android.support.v4.view.ViewConfigurationCompat;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
@@ -28,9 +30,6 @@ import android.view.ViewConfiguration;
 import android.widget.AdapterView;
 import android.widget.ListAdapter;
 import android.widget.ListView;
-
-import androidx.core.view.MotionEventCompat;
-import androidx.core.view.ViewConfigurationCompat;
 
 import com.callme.platform.R;
 import com.callme.platform.widget.pulltorefresh.AbsSwipeAdapter;

@@ -1,6 +1,7 @@
 package com.callme.platform.widget;
 
 import android.content.Context;
+import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.AdapterView;
@@ -9,8 +10,6 @@ import android.widget.Gallery;
 import android.widget.ImageView;
 import android.widget.ImageView.ScaleType;
 import android.widget.LinearLayout;
-
-import androidx.viewpager.widget.ViewPager;
 
 import com.callme.platform.R;
 import com.callme.platform.util.ResourcesUtil;

@@ -12,6 +12,9 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Build;
 import android.os.Bundle;
+import android.support.annotation.LayoutRes;
+import android.support.annotation.Nullable;
+import android.support.v4.app.FragmentActivity;
 import android.text.TextUtils;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
@@ -27,17 +30,11 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.annotation.LayoutRes;
-import androidx.annotation.Nullable;
-import androidx.fragment.app.FragmentActivity;
-
-import com.callme.platform.BuildConfig;
 import com.callme.platform.R;
 import com.callme.platform.common.activity.NoNetworkGuideActivity;
 import com.callme.platform.common.dialog.CmDialog;
 import com.callme.platform.common.dialog.CmDialog.DialogOnClickListener;
 import com.callme.platform.common.dialog.ProgressDialog;
-import com.callme.platform.util.BugtagsUtil;
 import com.callme.platform.util.LogUtil;
 import com.callme.platform.util.StatisticsUtil;
 import com.callme.platform.util.ToastUtil;
