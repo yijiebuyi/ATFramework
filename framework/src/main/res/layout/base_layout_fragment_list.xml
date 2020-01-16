@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+        <com.mm.platform.widget.pulltorefresh.PullToRefreshSwipeListView
+            android:id="@+id/pull_to_refresh_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:cacheColorHint="@color/transparent"
+            android:divider="@color/common_line"
+            android:dividerHeight="@dimen/px1"
+            android:listSelector="@color/transparent" >
+        </com.mm.platform.widget.pulltorefresh.PullToRefreshSwipeListView>
+
+        <View
+            android:id="@+id/space_holder"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px98" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/page_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="bottom|right"
+        android:paddingBottom="@dimen/px113"
+        android:paddingRight="@dimen/px15"
+        android:visibility="gone" />
+
+</RelativeLayout>

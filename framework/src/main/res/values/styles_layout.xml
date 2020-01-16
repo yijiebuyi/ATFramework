@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 水平分割线的style -->
+    <style name="divider_horizontal">
+        <item name="android:background">@color/layout_grey3</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/px1</item>
+    </style>
+    <!-- 水平分割线的style2 -->
+    <style name="divider_horizontal2">
+        <item name="android:background">@color/layout_grey7</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/px1</item>
+    </style>
+    <!-- 水平分割线的style3 -->
+    <style name="divider_horizontal3">
+        <item name="android:background">@color/layout_grey8</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/px1</item>
+    </style>
+    <style name="divider_horizontal_f4">
+        <item name="android:background">@color/gray_f4</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/px1</item>
+    </style>
+    <!-- 水平分割线的style之有间隔 -->
+    <style name="divider_horizontal_padding">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:src">#cccccc</item>
+        <item name="android:background">@color/layout_white</item>
+        <item name="android:layout_height">@dimen/px1</item>
+        <item name="android:contentDescription">@null</item>
+    </style>
+    <!-- 垂直分割线的style -->
+    <style name="divider_vertical">
+        <item name="android:background">@color/layout_grey3</item>
+        <item name="android:layout_width">@dimen/px1</item>
+    </style>
+    <!-- 垂直分割线的style2 -->
+    <style name="divider_vertical2">
+        <item name="android:background">@color/layout_grey7</item>
+        <item name="android:layout_width">@dimen/px1</item>
+    </style>
+
+
+</resources>

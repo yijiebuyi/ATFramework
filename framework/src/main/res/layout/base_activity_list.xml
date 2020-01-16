@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.callme.platform.widget.pulltorefresh.PullToRefreshSwipeListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pull_to_refresh_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:cacheColorHint="@color/transparent"
+    android:divider="@color/transparent"
+    android:dividerHeight="0dp"
+    android:listSelector="@color/transparent" >
+
+</com.callme.platform.widget.pulltorefresh.PullToRefreshSwipeListView>

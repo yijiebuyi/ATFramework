@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efeff4"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/top_tab_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/common_white_bg_color"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/header_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/txt_content"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px79"
+                android:orientation="horizontal" >
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/tab_scroll_img"
+                android:layout_width="match_parent"
+                android:layout_height="2dip"
+                android:layout_marginTop="-2dip"
+                android:background="@color/blue_4e92f7"
+                android:contentDescription="@null" />
+
+            <View
+                style="@style/divider_horizontal"
+                android:layout_width="match_parent" />
+
+            <LinearLayout
+                android:id="@+id/top_fixed_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+            </LinearLayout>
+        </LinearLayout>
+
+        <com.callme.platform.widget.LazyViewPager
+            android:id="@+id/tab_content_view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1" >
+        </com.callme.platform.widget.LazyViewPager>
+
+        <LinearLayout
+            android:id="@+id/bottom_tool_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttom_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <View
+            style="@style/divider_horizontal"
+            android:layout_width="match_parent" />
+
+        <RadioGroup
+            android:id="@+id/buttom_tab_content"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px98"
+            android:background="#f8f8f8"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/px10" >
+        </RadioGroup>
+    </LinearLayout>
+
+</merge>

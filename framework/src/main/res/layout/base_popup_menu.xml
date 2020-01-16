@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_view_content"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/popup_menu_bg"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/px5"
+    android:paddingLeft="@dimen/px26"
+    android:paddingRight="@dimen/px26"
+    android:paddingTop="@dimen/px13" >
+
+    <com.mm.platform.widget.MzPopupMenuList
+        android:id="@+id/listView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@null"
+        android:divider="@color/common_list_line"
+        android:dividerHeight="@dimen/px1"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none" >
+    </com.mm.platform.widget.MzPopupMenuList>
+
+</LinearLayout>

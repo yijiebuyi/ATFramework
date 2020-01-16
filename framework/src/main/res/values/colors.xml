@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 点击颜色 -->
+    <color name="common_black">#333333</color>
+    <color name="black">#000000</color>
+
+    <!-- 页面背景色 -->
+    <color name="common_grey_bg_color">#ffefeff4</color>
+    <color name="common_white_bg_color">#ffffffff</color>
+    <color name="common_black_bg_color">#333333</color>
+    <color name="common_toast_bg_color">#e5555555</color>
+    <color name="common_notify_bg_color">#e5ffffff</color>
+    <!-- bar背景色 -->
+    <color name="common_bar_bg_color">#ffdedfe0</color>
+    <!-- 大标题字体颜色 -->
+    <color name="common_big_title_text">#ff222222</color>
+    <!-- 一般的item的背景色 -->
+    <color name="common_item_bg">#ffffffff</color>
+    <!-- 内容描述字体颜色 -->
+    <color name="common_big_des_text">#ff666666</color>
+    <color name="common_small_des_text">#ff999999</color>
+    <color name="common_send_message_text">#ff8400</color>
+    <color name="common_send_message_text_press">#cc6a00</color>
+    <color name="common_send_locate_text">#f00500</color>
+    <color name="common_send_locate_text_press">#c00400</color>
+    <color name="common_orange_des_text">#ffff8400</color>
+    <color name="common_bold_des_text">#ff222222</color>
+    <color name="common_tiny_des_text">#ffcccccc</color>
+    <color name="common_bold_des_text_press">#88222222</color>
+    <color name="common_search_hint">#b3b3b3</color>
+
+    <!-- 按钮字体颜色 -->
+    <color name="common_btn_red_text">#fff00500</color>
+    <color name="common_btn_grey_text">#ff888888</color>
+    <color name="common_btn_tip_text">#ff333333</color>
+    <color name="common_btn_black_text">#ff555555</color>
+    <color name="common_btn_white_text">#ffffffff</color>
+    <color name="common_btn_white_text_press">#88ffffff</color>
+    <color name="common_btn_black_text_press">#88555555</color>
+    <!-- 按钮背景颜色 -->
+    <color name="common_btn_white_bg">#00ffffff</color>
+    <color name="common_btn_red_bg">#fff00500</color>
+    <!-- 编辑框hint内容的字体颜色 -->
+    <color name="common_edit_hint_text">#ffcccccc</color>
+    <!-- 分割线线条颜色 -->
+    <color name="common_line">#ffcccccc</color>
+    <color name="common_list_line">#33ffffff</color>
+    <!-- 按钮背景点击时的颜色 -->
+    <color name="common_btn_red_bg_press">#ffc00400</color>
+    <color name="common_btn_white_bg_press">#ffd7d7db</color>
+    <color name="common_btn_grey_bg_press">#ffe5e5e5</color>
+    <!-- 通用透明色 -->
+    <color name="transparent">#00000000</color>
+
+    <!-- 半透明色 -->
+    <color name="translucent">#b0000000</color>
+
+    <!-- 半透明色 -->
+    <color name="transparent_20">#33000000</color>
+    <color name="transparent_95">#f2000000</color>
+    <color name="common_black_half">#7f222222</color>
+
+    <!-- 布局颜色 -->
+    <color name="layout_white">#ffffff</color> <!-- 背景色 -->
+    <color name="layout_grey_bg">#efeff4</color> <!-- 背景色 -->
+    <color name="layout_grey2">#888888</color> <!-- 辅色2 -->
+    <color name="layout_grey3">#cccccc</color> <!-- 辅色3 -->
+    <color name="layout_grey4">#dcdcdc</color> <!-- 辅色4 -->
+    <color name="layout_grey5">#c5c5c5</color> <!-- 辅色5 -->
+    <color name="layout_grey6">#e9e9e9</color> <!-- 辅色6 -->
+    <color name="layout_grey7">#e3e3e3</color> <!-- 辅色7 -->
+    <color name="layout_grey8">#bbbbbb</color> <!-- 辅色8 -->
+    <color name="layout_grey9">#efefef</color> <!-- 辅色9 -->
+    <color name="gray_f4">#f4f4f4</color> <!-- 辅色9 -->
+    <color name="blue_4e92f7">#4e92f7</color>
+    <color name="gray_999999">#999999</color>
+    <color name="gray_888888">#888888</color>
+    <color name="black_1d1d20">#1d1d20</color>
+
+    <!--font color-->
+    <color name="font_black">#333333</color>
+    <color name="font_blue">#0190dc</color>
+
+    <!--horizontal divide line-->
+    <color name="hor_divide_line">#E0E0E0</color>
+    <!--vertical divide line-->
+    <color name="ver_divide_line">#E0E0E0</color>
+
+    <!--crop,image-->
+    <color name="crop_background">#fffafafa</color>
+    <color name="photo_view_background">#000000</color>
+    <color name="crop_bottom_bar_background">#ffeaeaea</color>
+    <color name="crop_text_dark_black_color">#bb000000</color>
+    <color name="crop_image_ratio_color">#bb000000</color>
+    <color name="customize_crop_title_gray">#808080</color>
+    <color name="customize_crop_edit_color">#808080</color>
+    <color name="crop_blue">#32a5e7</color>
+
+</resources>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:picker="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/common_white_bg_color"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/common_bar_bg_color"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/daypicker_cancle"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/px90"
+            android:background="@color/transparent"
+            android:paddingLeft="@dimen/px26"
+            android:singleLine="true"
+            android:text="@string/cancel"
+            android:textColor="@drawable/common_btn_black_text_selector"
+            android:textSize="@dimen/font_32px" />
+
+        <TextView
+            android:id="@+id/dialog_title"
+            android:layout_width="0dip"
+            android:layout_height="@dimen/px90"
+            android:layout_marginLeft="@dimen/px20"
+            android:layout_marginRight="@dimen/px20"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/common_bold_des_text"
+            android:textSize="@dimen/font_40px" />
+
+        <Button
+            android:id="@+id/daypicker_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/px90"
+            android:background="@color/transparent"
+            android:paddingRight="@dimen/px26"
+            android:singleLine="true"
+            android:text="@string/common_finish"
+            android:textColor="@drawable/common_btn_black_text_selector"
+            android:textSize="@dimen/font_32px" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/px340"
+        android:background="@color/common_white_bg_color"
+        android:gravity="center_vertical">
+
+        <com.callme.platform.widget.datapicker.view.TextWheelPicker
+            android:id="@+id/daypicker_year"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/px340"
+            android:layout_weight="1"
+            android:visibility="gone"
+            picker:wheel_item_space="@dimen/px15"
+            picker:wheel_line_color="@color/common_white_bg_color"
+            picker:wheel_line_width="@dimen/px2"
+            picker:wheel_text_size="@dimen/font_38px"
+            picker:wheel_visible_item_count="7" />
+
+        <TextView
+            android:id="@+id/middle_des"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/px340"
+            android:gravity="center"
+            android:textColor="@color/common_small_des_text"
+            android:textSize="@dimen/font_38px"
+            android:visibility="gone" />
+
+        <com.callme.platform.widget.datapicker.view.TextWheelPicker
+            android:id="@+id/daypicker_month"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/px340"
+            android:layout_weight="1"
+            android:visibility="gone"
+            picker:wheel_item_space="@dimen/px15"
+            picker:wheel_line_color="@color/common_white_bg_color"
+            picker:wheel_line_width="@dimen/px2"
+            picker:wheel_text_size="@dimen/font_38px"
+            picker:wheel_visible_item_count="7" />
+
+        <com.callme.platform.widget.datapicker.view.TextWheelPicker
+            android:id="@+id/daypicker_day"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/px340"
+            android:layout_weight="1"
+            android:visibility="gone"
+            picker:wheel_item_space="@dimen/px15"
+            picker:wheel_line_color="@color/common_white_bg_color"
+            picker:wheel_line_width="@dimen/px2"
+            picker:wheel_text_size="@dimen/font_38px"
+            picker:wheel_visible_item_count="7" />
+
+        <com.callme.platform.widget.datapicker.view.TextWheelPicker
+            android:id="@+id/daypicker_hour"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/px340"
+            android:layout_weight="1"
+            android:visibility="gone"
+            picker:wheel_item_space="@dimen/px15"
+            picker:wheel_line_color="@color/common_white_bg_color"
+            picker:wheel_line_width="@dimen/px2"
+            picker:wheel_text_size="@dimen/font_38px"
+            picker:wheel_visible_item_count="7" />
+
+        <com.callme.platform.widget.datapicker.view.TextWheelPicker
+            android:id="@+id/daypicker_minute"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/px340"
+            android:layout_weight="1"
+            android:visibility="gone"
+            picker:wheel_item_space="@dimen/px15"
+            picker:wheel_line_color="@color/common_white_bg_color"
+            picker:wheel_line_width="@dimen/px2"
+            picker:wheel_text_size="@dimen/font_38px"
+            picker:wheel_visible_item_count="7" />
+    </LinearLayout>
+
+</LinearLayout>

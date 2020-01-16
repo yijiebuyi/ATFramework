@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/txView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:clickable="false"
+    android:drawablePadding="@dimen/px12"
+    android:gravity="center_vertical|left"
+    android:paddingBottom="@dimen/px17"
+    android:paddingTop="@dimen/px17"
+    android:singleLine="true"
+    android:textColor="@drawable/common_btn_white_text_selector"
+    android:textSize="@dimen/font_34px" />

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#ffffff"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/left_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/px100"
+            android:background="@android:color/transparent"
+            android:paddingLeft="@dimen/px24"
+            android:paddingRight="@dimen/px24"
+            android:singleLine="true"
+            android:text="@string/cancel"
+            android:textColor="@color/gray_999999"
+            android:textSize="@dimen/font_32px" />
+
+        <TextView
+            android:id="@+id/middle_txt"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="@dimen/px26"
+            android:paddingLeft="@dimen/px36"
+            android:paddingRight="@dimen/px36"
+            android:paddingTop="@dimen/px26"
+            android:textColor="@color/black_1d1d20"
+            android:textSize="@dimen/font_30px" />
+
+        <Button
+            android:id="@+id/right_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/px100"
+            android:background="@android:color/transparent"
+            android:paddingLeft="@dimen/px24"
+            android:paddingRight="@dimen/px24"
+            android:singleLine="true"
+            android:text="@string/finish"
+            android:textColor="@color/font_blue"
+            android:textSize="@dimen/font_32px" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divide_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#DEDEDE"></View>
+
+    <FrameLayout
+        android:id="@+id/content_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

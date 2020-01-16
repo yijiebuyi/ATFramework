@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <TextView style="@style/CustomizeCropTitle" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/cropsize_edit_width_layout"
+            android:layout_width="@dimen/px444"
+            android:layout_height="@dimen/px80"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="@dimen/px16"
+            android:layout_marginLeft="@dimen/px16"
+            android:background="@drawable/crop_textfield_default">
+
+            <TextView
+                android:id="@+id/edit_width_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="@dimen/px12"
+                android:text="@string/crop_width_text"
+                android:textColor="@color/customize_crop_edit_color"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/cropsize_edit_width"
+                style="@style/CustomizeCropEditText"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@id/edit_width_text"
+                android:inputType="number"
+                android:maxLength="5" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="@dimen/px444"
+            android:layout_height="@dimen/px80"
+            android:layout_below="@+id/cropsize_edit_width_layout"
+            android:layout_marginBottom="@dimen/px16"
+            android:layout_marginLeft="@dimen/px16"
+            android:background="@drawable/crop_textfield_default">
+
+            <TextView
+                android:id="@+id/edit_height_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="@dimen/px12"
+                android:text="@string/crop_height_text"
+                android:textColor="@color/customize_crop_edit_color"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/cropsize_edit_height"
+                style="@style/CustomizeCropEditText"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@id/edit_height_text"
+                android:inputType="number"
+                android:maxLength="5" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="@dimen/px84"
+            android:layout_height="@dimen/px192"
+            android:layout_toRightOf="@+id/cropsize_edit_width_layout">
+
+            <ImageView
+                android:id="@+id/lock_crop_ratio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:paddingLeft="@dimen/px44"
+                android:src="@drawable/btn_lock_on" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

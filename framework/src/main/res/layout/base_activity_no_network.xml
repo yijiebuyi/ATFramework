@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_white_bg_color"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/px30"
+        android:layout_marginBottom="@dimen/px25"
+        android:layout_marginLeft="@dimen/px30"
+        android:layout_marginRight="@dimen/px30"
+        android:layout_marginTop="@dimen/px30"
+        android:drawablePadding="@dimen/px14"
+        android:gravity="left|center_vertical"
+        android:text="@string/no_network_sub_title_one"
+        android:textColor="@color/common_bold_des_text"
+        android:textSize="@dimen/font_30px" />
+
+    <TextView
+        android:id="@+id/des1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/px25"
+        android:layout_marginLeft="@dimen/px30"
+        android:layout_marginRight="@dimen/px30"
+        android:text="@string/no_network_des_one"
+        android:textColor="@color/common_small_des_text"
+        android:textSize="@dimen/font_24px" />
+
+    <TextView
+        android:id="@+id/des2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/px35"
+        android:layout_marginLeft="@dimen/px30"
+        android:layout_marginRight="@dimen/px30"
+        android:text="@string/no_network_des_two"
+        android:textColor="@color/common_small_des_text"
+        android:textSize="@dimen/font_24px" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/px1"
+        android:layout_marginLeft="@dimen/px30"
+        android:layout_marginRight="@dimen/px30"
+        android:background="@color/common_line" />
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/px30"
+        android:layout_marginLeft="@dimen/px30"
+        android:layout_marginRight="@dimen/px30"
+        android:layout_marginTop="@dimen/px35"
+        android:drawablePadding="@dimen/px14"
+        android:text="@string/no_network_sub_title_two"
+        android:textColor="@color/common_bold_des_text"
+        android:textSize="@dimen/font_30px" />
+
+    <TextView
+        android:id="@+id/des3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/px30"
+        android:layout_marginLeft="@dimen/px30"
+        android:layout_marginRight="@dimen/px30"
+        android:text="@string/no_network_des_three"
+        android:textColor="@color/common_small_des_text"
+        android:textSize="@dimen/font_24px" />
+
+</LinearLayout>

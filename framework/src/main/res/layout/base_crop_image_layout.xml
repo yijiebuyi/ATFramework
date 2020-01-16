@@ -1,0 +1,59 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.mm.platform.common.crop.CropImageView
+        android:id="@+id/cropImg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/crop_buttom_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#222222"
+        android:paddingBottom="@dimen/px19"
+        android:paddingLeft="@dimen/px30"
+        android:paddingRight="@dimen/px30"
+        android:paddingTop="@dimen/px19" >
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/btn_black_selector"
+            android:paddingBottom="@dimen/px14"
+            android:paddingLeft="@dimen/px33"
+            android:paddingRight="@dimen/px33"
+            android:paddingTop="@dimen/px14"
+            android:text="@string/cancel"
+            android:textColor="@drawable/common_btn_white_text_selector"
+            android:textSize="@dimen/font_32px" />
+
+        <Button
+            android:id="@+id/rotate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/remote_selector" />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/btn_black_selector"
+            android:paddingBottom="@dimen/px14"
+            android:paddingLeft="@dimen/px33"
+            android:paddingRight="@dimen/px33"
+            android:paddingTop="@dimen/px14"
+            android:text="@string/save"
+            android:textColor="@drawable/common_btn_white_text_selector"
+            android:textSize="@dimen/font_32px" />
+    </RelativeLayout>
+
+</FrameLayout>
