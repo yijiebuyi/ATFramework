@@ -137,18 +137,14 @@ public abstract class BaseActivity extends FragmentActivity {
     @Override
     protected void onPause() {
         super.onPause();
-        //BugtagsUtil.onPause(this, BuildConfig.type);
         StatisticsUtil.onPause(this);
-        MobclickAgent.onPause(this);
         unregisterReceiver(mNetReceiver);
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        //BugtagsUtil.onResume(this, BuildConfig.type);
         StatisticsUtil.onResume(this);
-        MobclickAgent.onResume(this);
         registerNetReceiver();
     }
 
